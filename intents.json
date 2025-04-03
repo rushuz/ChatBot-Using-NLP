@@ -1,0 +1,102 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey there", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi! How can I help you?", "Hello! How may I assist you?"]
+    },
+    {
+        "tag": "appointment",
+        "patterns": ["I need to book an appointment", "Can I schedule a doctor visit?", "How do I make an appointment?", "I want to see a doctor"],
+        "responses": ["Sure! Please provide your preferred date and time.", "Let me help you book an appointment. Which department do you need?"]
+    },
+    {
+        "tag": "cancel_appointment",
+        "patterns": ["I need to cancel my appointment", "How do I cancel my booking?", "Can you cancel my appointment?"],
+        "responses": ["Your appointment can be canceled. Please provide your booking ID.", "Sure, let me know your appointment details to cancel."]
+    },
+    {
+        "tag": "reschedule_appointment",
+        "patterns": ["I want to reschedule my appointment", "Can I change my booking time?", "I need to postpone my doctor visit"],
+        "responses": ["Sure, let me know your current appointment details and preferred new date and time."]
+    },
+    {
+        "tag": "departments",
+        "patterns": ["What departments do you have?", "Which specialists are available?", "What types of doctors are there?", "Do you have a cardiology department?"],
+        "responses": ["We have departments like Cardiology, Neurology, Pediatrics, Orthopedics, and more. How can I help?"]
+    },
+    {
+        "tag": "doctor_availability",
+        "patterns": ["Is Dr. Smith available?", "Can I meet Dr. John tomorrow?", "Which doctors are available today?"],
+        "responses": ["Let me check the availability of Dr. Smith. Please wait a moment.", "Yes, Dr. John is available tomorrow. Would you like to book an appointment?"]
+    },
+    {
+        "tag": "emergency",
+        "patterns": ["Is there an emergency room?", "What should I do in case of an emergency?", "Can I contact the ER?"],
+        "responses": ["For emergencies, please visit our ER immediately or call our hotline at 123-456-7890."]
+    },
+    {
+        "tag": "hospital_timing",
+        "patterns": ["What are your working hours?", "When is the hospital open?", "Are you open on weekends?"],
+        "responses": ["Our hospital operates 24/7 for emergencies. Regular outpatient services are available from 8 AM to 8 PM."]
+    },
+    {
+        "tag": "location",
+        "patterns": ["Where is the hospital located?", "What is your address?", "How can I get to the hospital?"],
+        "responses": ["We are located at 123 Health Avenue, MedCity. Do you need directions?"]
+    },
+    {
+        "tag": "contact",
+        "patterns": ["What is your contact number?", "How can I contact the hospital?", "Do you have a phone number?"],
+        "responses": ["You can contact us at 123-456-7890. How can we assist you?"]
+    },
+    {
+        "tag": "health_insurance",
+        "patterns": ["Do you accept health insurance?", "Is my insurance valid here?", "Which insurance plans do you accept?"],
+        "responses": ["Yes, we accept most major health insurance plans. Please provide your provider's name for confirmation."]
+    },
+    {
+        "tag": "test_results",
+        "patterns": ["How can I get my test results?", "Are my lab results ready?", "Where can I check my medical reports?"],
+        "responses": ["You can collect your test results from our lab or access them online through our patient portal."]
+    },
+    {
+        "tag": "medication",
+        "patterns": ["Can I refill my prescription?", "What medications are available?", "Do you have a pharmacy?"],
+        "responses": ["Yes, we have an in-house pharmacy. Please share your prescription details."]
+    },
+    {
+        "tag": "feedback",
+        "patterns": ["I want to give feedback", "How do I leave a review?", "Can I share my experience?"],
+        "responses": ["We appreciate your feedback! Please visit our website or share it here."]
+    },
+    {
+        "tag": "services",
+        "patterns": ["What services do you provide?", "Do you offer home care?", "What facilities are available?"],
+        "responses": ["We offer outpatient care, emergency services, lab testing, radiology, and home care. Let me know if you'd like more details."]
+    },
+    {
+        "tag": "visiting_hours",
+        "patterns": ["What are the visiting hours?", "When can I visit a patient?", "Are visitors allowed now?"],
+        "responses": ["Visiting hours are from 10 AM to 6 PM. Special arrangements may be made for critical cases."]
+    },
+    {
+        "tag": "childcare",
+        "patterns": ["Do you have a pediatrician?", "Is there a child specialist?", "Can I consult for my child's health?"],
+        "responses": ["Yes, we have experienced pediatricians. Would you like to book an appointment?"]
+    },
+    {
+        "tag": "vaccination",
+        "patterns": ["Do you provide vaccinations?", "Can I get vaccinated here?", "Is the flu vaccine available?"],
+        "responses": ["Yes, we provide vaccinations for all age groups. Which vaccine do you need?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "Thanks, see you later", "Take care"],
+        "responses": ["Goodbye! Stay healthy and take care.", "Thank you! Have a great day."]
+    },
+    {
+        "tag": "symptoms",
+        "patterns": ["I have a fever and cough", "What should I do if I have a headache?", "I feel unwell, what now?"],
+        "responses": ["You should see a doctor. Would you like to book an appointment?"]
+    }
+]
